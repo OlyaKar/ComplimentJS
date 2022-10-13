@@ -1,0 +1,41 @@
+﻿<html lang="ru">
+<head> 
+<meta http-equiv="Generator Compliments" content="text/html" charset="UTF-8" />
+<meta name="description" content="Создать комплимент для ПК" />
+<meta name="keywords" content="комплимент, приятное, создать, сгенерировать, слова, что сказать" />
+<link rel="stylesheet" href="Rules.css" type="text/css" />
+<title>Создать комплимент</title>
+</head> 
+<body> 
+	<script src="script_with_fun.js"></script>
+	<div id="MainParams">
+	<label for="">Комплимент предназначен</label>
+		<select id="SEX" >
+			<option value></option>
+			<option value="1" >Мужчине</option>
+			<option value="2">Женщине</option>
+		</select>
+
+	<label for="">Длина комплимента</label>
+		<select id="Length" >
+			<option value></option>
+			<option value="1">Длинный</option>
+			<option value="2">Средний</option>
+			<option value="3">Короткий</option>
+		</select>
+		
+	</div>
+	
+	<div id="GenerateButton">
+		<label for="">Имя комплиментируемого</label>
+			<input type="text" id="NAME" size="30" required placeholder="">
+		
+		<input id="Button" type="button" value="КОМПЛИМЕНТ" onclick="MainTry()" >
+	</div>
+	
+	<div id="Generator">
+		<p>Полученный комплимент</p>
+		<textarea id="Compliment" name="text" placeholder="******"></textarea>
+	</div>
+</body> 
+</html> 

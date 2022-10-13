@@ -1,0 +1,71 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body {
+padding: 10% 0 2%;
+font-family: “Comic Sans MS”, Verdana, Arial, Helvetica, sans-serif;
+text-align: center;
+font-weight: bold;
+font-size: 12px;
+color: #FFFFFF;
+background-image: url(RoseCompliment.jpg);
+background-size: 80% auto;
+background-position: center;
+background-repeat:no-repeat;
+background-color: #000000;
+}
+
+#MainParams{
+padding: 2% 0 2%;
+}
+
+#MainParams select{
+padding: 2px 10px 2px 5px;
+border: solid 1px #00FF33;
+width: 10%;
+height: 5%;
+}
+
+#GenerateButton{
+padding: 2% 0 2%;
+}
+
+#GenerateButton input{
+padding: 2px 10px 2px 5px;
+border: solid 1px #FF9933;
+}
+#Name{
+width: 15%;
+height: 8%;
+}
+
+#Button{
+padding: 2% 0 2%;
+padding: 7px 30px;
+font-size: 10px; /*Размер шрифта */
+font-weight: bold; /* Насыщенность шрифта */
+text-align: center; /* Надпись на кнопке по центру */
+border: solid 1px #FFFF66; /* Параметры рамки кнопки */
+cursor: pointer; /* Изменение вида курсора при наведении*/
+border-radius: 20px; moz-border-radius: 20px; webkit-border-radius: 20px;
+}
+
+#Generator{
+padding: 2% 0 2%;
+}
+
+#Generator textarea{
+width: 40%;
+height: 30%;
+font-size: 12px; /*Размер шрифта */
+font-weight: bold;
+border: solid 1px #00FFFF;
+letter-spacing: 3px;
+text-align:justify;
+hyphens: auto;
+padding: 15px 15px 15px 15px;
+color: #A52A2A;
+}
